@@ -14,8 +14,25 @@
 <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="My photo" width="300px" class="my-photo">
 <!--запитати як додати картинку у в'ю, бо не показувало її-->
 <div id="app">
+    <!-- сайдбар-->
+    <!-- тут вагалась, що брати: v-model чи v-bind. чат порекомендував v-model-->
+    <div>
+        <h1>
+            <label> {{surname}}</label>
+            &nbsp;
+            <label> {{name}} </label>
+        </h1>
+        <h4>
+            <label>{{position}} </label>
+        </h4>
+        <p>About you: <br> {{descr}} </p>
+        <input type="text" v-model="surname" placeholder="Your surname"><br>
+        <input type="text" v-model="name" placeholder="Your name"><br>
+        <input type="text" v-model="position" placeholder="Your position"/><br>
+        <input type="text" v-model="descr"  placeholder="About yourself"/>
+    </div>
+
 
 </div>
-
 </body>
 </html>

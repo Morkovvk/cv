@@ -1,7 +1,10 @@
 const app = Vue.createApp({
     data() {
         return {
-            message: 'hi',
+            surname: '',
+            name: '',
+            position: '',
+            descr: '',
 
         };
     },
