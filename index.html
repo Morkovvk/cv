@@ -139,6 +139,17 @@
         <button @click="addTechSkill">Add Tech Skill</button>
     </div>
 
+    <div class="contacts">
+        <h3 class="sidebar-title">Contacts</h3>
+        <p class="contacts-item">
+            <span class="contacts-type">N: </span>
+            <input v-model="contacts.phone" class="contacts-number" @input="formatPhoneNumber" maxlength="13" placeholder="Your phone number" />
+        </p>
+        <p class="contacts">
+            <span class="contacts-type">E: </span>
+            <input v-model="contacts.email" class="contacts-email" @input="formatEmail" placeholder="Your e-mail" />
+        </p>
+    </div>
 
 </div>
 </body>

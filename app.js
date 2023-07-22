@@ -29,6 +29,10 @@ const app = Vue.createApp({
             softSkills: [],
             techSkills: [],
 
+            contacts: {
+                phone: '',
+                email: '',
+            },
         };
     },
     methods: {
@@ -90,6 +94,28 @@ const app = Vue.createApp({
             this.techSkills.splice(index, 1);
         },
 
+        formatPhoneNumber() {
+            // Форматуємо номер телефону, видаляючи всі символи, крім цифр та знака "+"
+            this.contacts.phone = this.contacts.phone.replace(/[^0-9+]/g, '');
+        },
+
+        formatEmail() {
+            // Валідація для адреси електронної пошти з використанням регулярного виразу
+            const emailRegex = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/;
+            if (!emailRegex.test(this.contacts.email)) {
+                // Якщо адреса не відповідає формату, очищаємо поле
+                this.contacts.email = '';
+            }
+        },
+
+        computed: {
+            telLink() {
+                return 'tel:' + this.contacts.phone.replace(/[^0-9]/g, '');
+            },
+            emailLink() {
+                return 'mailto:' + this.contacts.email;
+            },
+        },
     },
 });
 
