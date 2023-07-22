@@ -54,6 +54,39 @@
         </form>
     </div>
 
+    <!-- Work Experience -->
+
+    <div>
+        <h3>Work Experience</h3>
+        <div v-if="experiences.length > 0">
+            <h4>Registered experience::</h4>
+            <ul>
+                <li v-for="(experience, index) in experiences" :key="index">
+                    <p><strong>Company:</strong> {{ experience.companyName }}</p>
+                    <p><strong>Position:</strong> {{ experience.position }}</p>
+                    <p><strong>Work period:</strong> {{ experience.workPeriod }}</p>
+                    <p><strong>Responsibilities:</strong> {{ experience.responsibilities }}</p>
+                </li>
+            </ul>
+        </div>
+
+        <form @submit.prevent="addExperience">
+            <label for="company-name"></label>
+            <input type="text" id="company-name" v-model="newExperience.companyName" placeholder="Company name"><br>
+
+            <label for="position"></label>
+            <input type="text" id="position" v-model="newExperience.position" placeholder="Position"><br>
+
+            <label for="work-period"></label>
+            <input type="text" id="work-period" v-model="newExperience.workPeriod" placeholder="work-period"><br>
+
+            <label for="responsibilities"></label>
+            <textarea id="responsibilities" v-model="newExperience.responsibilities" placeholder="Responsibilities"></textarea><br>
+
+            <button type="submit">Add experience</button>
+        </form>
+    </div>
+
 
 </div>
 </body>

@@ -13,6 +13,14 @@ const app = Vue.createApp({
                 url: '',
             },
 
+            newExperience: {
+                companyName: '',
+                position: '',
+                workPeriod: '',
+                responsibilities: '',
+            },
+            experiences: [],
+
         };
     },
     methods: {
@@ -36,6 +44,30 @@ const app = Vue.createApp({
                 alert('Будь ласка, заповніть всі поля проекту.');
             }
         },
+
+    addExperience() {
+        // Перевірка на заповненість полів досвіду роботи перед додаванням
+        if (
+            this.newExperience.companyName &&
+            this.newExperience.position &&
+            this.newExperience.workPeriod &&
+            this.newExperience.responsibilities
+        ) {
+            // Додаємо новий досвід роботи до масиву experiences
+            this.experiences.push(this.newExperience);
+
+            // Очищаємо дані з форми
+            this.newExperience = {
+                companyName: '',
+                position: '',
+                workPeriod: '',
+                responsibilities: '',
+            };
+        } else {
+            alert('Будь ласка, заповніть всі поля досвіду роботи.');
+        }
+    },
+
     },
 });
 
