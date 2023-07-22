@@ -29,7 +29,29 @@
         <input type="text" v-model="surname" placeholder="Your surname"><br>
         <input type="text" v-model="name" placeholder="Your name"><br>
         <input type="text" v-model="position" placeholder="Your position"/><br>
-        <input type="text" v-model="descr"  placeholder="About yourself"/>
+        <textarea type="text" v-model="descr"  placeholder="About yourself"></textarea>
+    </div>
+
+    <!--my project-->
+    <div>
+        <h3>My projects</h3>
+        <ul>
+            <li v-for="project in projects" :key="project.id">
+                <a :href="project.url">{{ project.name }}</a>
+                <p>{{ project.description }}</p>
+            </li>
+        </ul>
+
+        <form @submit.prevent="addProject">
+            <label for="project-name"></label>
+            <input type="text" id="project-name" v-model="newProject.name" placeholder="Project name:"><br>
+            <label for="project-description"></label>
+            <input type="text" id="project-description" v-model="newProject.description" placeholder="Project description:"><br>
+            <label for="project-url"></label>
+            <input type="text" id="project-url" v-model="newProject.url" placeholder="Project URL:"><br>
+
+            <button type="submit">Add Project</button>
+        </form>
     </div>
 
 
