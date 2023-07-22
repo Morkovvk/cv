@@ -21,6 +21,11 @@ const app = Vue.createApp({
             },
             experiences: [],
 
+            university: '',
+            specialty: '',
+            educationDate: '',
+            country: '',
+
         };
     },
     methods: {

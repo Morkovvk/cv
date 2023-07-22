@@ -87,6 +87,21 @@
         </form>
     </div>
 
+    <!--    education -->
+    <div>
+        <h3 class="main-content-title">Education</h3>
+
+        <label for="university"> {{ university }}</label><br>
+        <label for="specialty"> {{ specialty }}</label><br>
+        <label for="education-date"> {{ educationDate }}</label><br>
+        <label for="country"> {{ country }}</label><br><br>
+
+        <input type="text" id="university" v-model="university" placeholder="University"/><br>
+        <input type="text" id="specialty" v-model="specialty" placeholder="Specialty:" /><br>
+        <input type="text" id="education-date" v-model="educationDate" placeholder="Date:" /><br>
+        <input type="text" id="country" v-model="country" placeholder="Country:"/>
+    </div>
+
 
 </div>
 </body>
