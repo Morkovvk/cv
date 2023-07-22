@@ -26,6 +26,9 @@ const app = Vue.createApp({
             educationDate: '',
             country: '',
 
+            softSkills: [],
+            techSkills: [],
+
         };
     },
     methods: {
@@ -72,6 +75,20 @@ const app = Vue.createApp({
             alert('Будь ласка, заповніть всі поля досвіду роботи.');
         }
     },
+
+        addSoftSkill() {
+            this.softSkills.push('');
+        },
+        removeSoftSkill(index) {
+            this.softSkills.splice(index, 1);
+        },
+        //     tech skill
+        addTechSkill() {
+            this.techSkills.push('');
+        },
+        removeTechSkill(index) {
+            this.techSkills.splice(index, 1);
+        },
 
     },
 });

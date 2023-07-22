@@ -102,6 +102,43 @@
         <input type="text" id="country" v-model="country" placeholder="Country:"/>
     </div>
 
+    <!--  Soft Skills-->
+    <div>
+        <h3 class="main-content-title">Soft Skills</h3>
+
+        <div v-if="softSkills.length > 0">
+            <h4>Registered Soft Skills: </h4>
+            <ul>
+                <li v-for="(skill, index) in softSkills" :key="index">{{ skill }}</li>
+            </ul>
+        </div>
+
+        <div v-for="(skill, index) in softSkills" :key="index">
+            <input type="text" v-model="softSkills[index]" />
+            <button @click="removeSoftSkill(index)">Delete</button>
+        </div>
+        <button @click="addSoftSkill">Add Soft Skill</button>
+    </div>
+
+    <!--  Tech Skills  -->
+
+    <div>
+        <h3 class="main-content-title">Tech Skills</h3>
+
+        <div v-if="techSkills.length > 0">
+            <h4>Registered Tech Skills: </h4>
+            <ul>
+                <li v-for="(skill, index) in techSkills" :key="index">{{ skill }}</li>
+            </ul>
+        </div>
+
+        <div v-for="(skill, index) in techSkills" :key="index">
+            <input type="text" v-model="techSkills[index]" />
+            <button @click="removeTechSkill(index)">Delete</button>
+        </div>
+        <button @click="addTechSkill">Add Tech Skill</button>
+    </div>
+
 
 </div>
 </body>
