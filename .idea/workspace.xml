@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9baaa25f-f8f1-4932-908c-d9394e0313f5" name="Changes" comment="created app.vue">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app.vue" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Vue Composition API Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="106c831b-a7ba-421a-a675-9f149e979aed" />
+        <option name="url" value="https://github.com/Morkovvk/cv.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SqTYmc8HTWSAGPVxVTkNnpSc9k" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/test&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9baaa25f-f8f1-4932-908c-d9394e0313f5" name="Changes" comment="" />
+      <created>1689873161005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689873161005</updated>
+      <workItem from="1689873161999" duration="15025000" />
+      <workItem from="1689958376057" duration="20749000" />
+      <workItem from="1690043772042" duration="55000" />
+      <workItem from="1690736961944" duration="19952000" />
+      <workItem from="1691011118056" duration="2003000" />
+      <workItem from="1691053099952" duration="68000" />
+      <workItem from="1691054752428" duration="56000" />
+      <workItem from="1691054813631" duration="13000" />
+      <workItem from="1691055669826" duration="619000" />
+      <workItem from="1691056678310" duration="135000" />
+      <workItem from="1691056861093" duration="1065000" />
+      <workItem from="1691058304655" duration="11435000" />
+      <workItem from="1691084948713" duration="32099000" />
+      <workItem from="1691845683180" duration="8274000" />
+      <workItem from="1691946759222" duration="8574000" />
+    </task>
+    <task id="LOCAL-00001" summary="created html and js files">
+      <created>1689982874600</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689982874600</updated>
+    </task>
+    <task id="LOCAL-00002" summary="connected vue">
+      <created>1689983368705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689983368705</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added photo">
+      <created>1689983482271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689983482271</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added inputs to enter information about yourself">
+      <created>1689983913733</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689983913733</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added the ability to add projects">
+      <created>1689984707648</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689984707648</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added the ability to add work experience">
+      <created>1689985280117</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689985280117</updated>
+    </task>
+    <task id="LOCAL-00007" summary="information about the educational institution">
+      <created>1689985472726</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689985472726</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added forms to add your skills">
+      <created>1689985759900</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689985759900</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added a form for contact details">
+      <created>1689986003115</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689986003115</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated the block about education, edited some tags">
+      <created>1690757581326</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690757581326</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added the ability to enter information about contacts">
+      <created>1691077289527</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691077289527</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add folder to .gitignore">
+      <created>1691079072494</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691079072494</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add folder to .gitignore">
+      <created>1691079388387</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691079388387</updated>
+    </task>
+    <task id="LOCAL-00014" summary="created app.vue">
+      <created>1691083746824</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691083746824</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="for-comments" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created html and js files" />
+    <MESSAGE value="connected vue" />
+    <MESSAGE value="added photo" />
+    <MESSAGE value="added inputs to enter information about yourself" />
+    <MESSAGE value="added the ability to add projects" />
+    <MESSAGE value="added the ability to add work experience" />
+    <MESSAGE value="information about the educational institution" />
+    <MESSAGE value="added forms to add your skills" />
+    <MESSAGE value="added a form for contact details" />
+    <MESSAGE value="updated the block about education, edited some tags" />
+    <MESSAGE value="updated edited some tags" />
+    <MESSAGE value="added the ability to enter information about contacts" />
+    <MESSAGE value="add folder to .gitignore" />
+    <MESSAGE value="created app.vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="created app.vue" />
+  </component>
+</project>
